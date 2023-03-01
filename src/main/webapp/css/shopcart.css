@@ -11,6 +11,14 @@ body {
    
    
 }
+  input[type="button"]{
+   outline:none;
+   border:none;
+   color: white;
+   font-size:16px;
+   
+   
+}
 
 
 
@@ -42,6 +50,7 @@ body {
 .bot {
 /*    background-color: rgb(226, 226, 226); */
    height: 80px;
+   display: flex;
 }
 
 /* .lay {
@@ -190,10 +199,10 @@ body {
    justify-content: center;
    align-items: center;
 }
-.bot_left:hover{
+/* .bot_left:hover{
    background-color: #000000;
    cursor: pointer;
-}
+} */
 
 
 .bot_right {
